@@ -14,7 +14,7 @@ public class Arreglo01 {
         
         // creación de un arreglo
         
-        int[] arreglo = new int[5];
+        int[] arreglo = new int[6];
         
         arreglo[0] = 10;
         arreglo[1] = 20;
@@ -22,7 +22,7 @@ public class Arreglo01 {
         arreglo[3] = 40;
         arreglo[4] = 50;
         
-        // arreglo[5] = 60;
+        arreglo[5] = 60;
         
         for (int i = 0; i < arreglo.length; i++) {
             System.out.println(arreglo[i]);
